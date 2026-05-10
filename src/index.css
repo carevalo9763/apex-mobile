@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: #08080C;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display { font-family: 'Syne', sans-serif; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee { animation: marquee 35s linear infinite; }
+
+.btn-cyan { box-shadow: 0 0 24px rgba(6,182,212,0.35); }
+.btn-cyan:hover { box-shadow: 0 0 40px rgba(6,182,212,0.55); }
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #08080C; }
+::-webkit-scrollbar-thumb { background: rgba(6,182,212,0.3); border-radius: 2px; }

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { ArrowRight, Phone, Wrench, Zap, Disc, Flame, Shield, Star, CheckCircle } from 'lucide-react';
 

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { Zap, Disc, Flame, Wrench, ArrowRight, Phone } from 'lucide-react';
 

@@ -98,7 +98,7 @@ export default function Home() {
 
             <h1
               className="font-display text-white leading-[1.0] mb-8"
-              style={{ fontSize: 'clamp(44px, 7vw, 110px)' }}
+              style={{ fontSize: 'clamp(44px, 6vw, 80px)' }}
             >
               <span className="font-normal text-white/50">Your car.</span><br />
               <span className="font-extrabold text-white">Your driveway.</span><br />

@@ -281,7 +281,7 @@ export default function Home() {
             {/* Left — CTA */}
             <div>
               <p className="text-[9px] font-black uppercase tracking-[0.5em] text-cyan-400 mb-6">Free Estimate · No Commitment</p>
-              <h2 className="font-display text-white leading-tight mb-5" style={{ fontSize: 'clamp(36px, 5vw, 72px)' }}>
+              <h2 className="font-display text-white leading-tight mb-5" style={{ fontSize: 'clamp(28px, 3.5vw, 52px)' }}>
                 <span className="font-normal text-white/40">Ready to book</span><br />
                 <span className="font-extrabold">a mechanic?</span>
               </h2>
